@@ -29,7 +29,7 @@ st.write(
 # --------------------------------------------------------------
 # Load the saved model and supporting files
 # --------------------------------------------------------------
-MODEL_DIR = "model"
+MODEL_DIR = "."
 
 @st.cache_resource
 def load_artifacts():
@@ -58,7 +58,7 @@ except Exception as e:
 # --------------------------------------------------------------
 st.header("1. Dataset")
 
-DATA_PATH = "data/loan_approval_data.csv"
+DATA_PATH = "loan_approval_data.csv"
 
 data_source = st.radio(
     "Choose a dataset to preview:",
