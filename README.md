@@ -73,3 +73,4 @@ Or open `loan_approval_prediction.ipynb` directly in [Google Colab](https://cola
 ## 👤 Author
 
 Musfirah Ather — AI student, The Islamia University of Bahawalpur
+https://loan-approval-prediction-yarjpgc7nzuu4xcue3wzoe.streamlit.app/
